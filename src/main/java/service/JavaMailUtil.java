@@ -18,8 +18,8 @@ public class JavaMailUtil {
         properties.put("mail.smtp.port", "587");
         properties.put("mail.smtp.ssl.protocols", "TLSv1.2");
 
-        String myAccountEmail = "mayss.Jaballi@esprit.tn";
-        String myAccountPassword = "dwka dbzo bbun mwar"; // Utilisez un mot de passe d'application si la vérification en deux étapes est activée
+        String myAccountEmail = "mayssjaballi@gmail.com";
+        String myAccountPassword = "jocv otqj asxd nclw"; // Utilisez un mot de passe d'application si la vérification en deux étapes est activée
         Session session = Session.getInstance(properties, new Authenticator() {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {

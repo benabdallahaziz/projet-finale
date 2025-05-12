@@ -30,6 +30,7 @@ import java.util.ResourceBundle;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+
 public class DashboardController implements Initializable {
 
 
@@ -76,7 +77,6 @@ public class DashboardController implements Initializable {
 
     @FXML
     private TextField tfPassword;
-
     @FXML
     private TextField tfPrenom;
     private UserService userService;
@@ -172,14 +172,10 @@ public class DashboardController implements Initializable {
         tfEmail.setText(authenticatedUser.getEmail());
         tfPrenom.setText(authenticatedUser.getPrenom());
         tfNom.setText(authenticatedUser.getNom());
-        tfAdresse.setText(authenticatedUser.getZipcode()+", "+authenticatedUser.getVille()+", "+authenticatedUser.getAdress());
-        lbUserNameGlobal.setText(authenticatedUser.getNom() + " "+ authenticatedUser.getPrenom());
-        lbUserNameGlobal1.setText(authenticatedUser.getNom() + " "+ authenticatedUser.getPrenom());
+        tfAdresse.setText(authenticatedUser.getZipcode() + ", " + authenticatedUser.getVille() + ", " + authenticatedUser.getAdress());
+        lbUserNameGlobal.setText(authenticatedUser.getNom() + " " + authenticatedUser.getPrenom());
+        lbUserNameGlobal1.setText(authenticatedUser.getNom() + " " + authenticatedUser.getPrenom());
     }
-
-
-
-
 
 
 

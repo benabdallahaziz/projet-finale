@@ -12,40 +12,40 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="651.0" prefWidth="879.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.DashboardController">
     <children>
-        <AnchorPane fx:id="MainContainer" layoutX="31.0" layoutY="41.0" prefHeight="494.0" prefWidth="736.0" style="-fx-background-color: #D19D8D; -fx-background-radius: 25;">
+        <AnchorPane fx:id="MainContainer" layoutX="31.0" layoutY="41.0" prefHeight="498.0" prefWidth="826.0" style="-fx-background-color: #D19D8D; -fx-background-radius: 25;">
             <children>
-                <HBox alignment="CENTER" layoutX="575.0" layoutY="13.0" prefHeight="66.0" prefWidth="123.0" spacing="20.0">
+                <HBox alignment="CENTER" layoutX="588.0" layoutY="13.0" prefHeight="66.0" prefWidth="252.0" spacing="20.0">
                     <children>
-                        <ImageView fitHeight="64.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="64.0" fitWidth="80.0" pickOnBounds="true" preserveRatio="true">
                             <image>
-                                <Image url="@imgs/ninja.png" />
+                                <Image url="@imgs/user.png" />
                             </image>
                         </ImageView>
-                        <Label fx:id="lbUserNameGlobal" text="Label">
+                        <Label fx:id="lbUserNameGlobal" prefHeight="20.0" prefWidth="147.0" text="Label">
                             <font>
                                 <Font name="Noto Serif Regular" size="14.0" />
                             </font>
                         </Label>
                     </children>
                 </HBox>
-                <HBox alignment="CENTER" layoutX="103.0" layoutY="13.0" prefHeight="66.0" prefWidth="434.0" spacing="74.0">
+                <HBox alignment="CENTER" layoutX="103.0" layoutY="13.0" prefHeight="66.0" prefWidth="482.0" spacing="74.0">
                     <children>
                         <Label fx:id="btn_home" onMouseClicked="#Home_display" prefHeight="26.0" prefWidth="54.0" text="Home">
                             <font>
                                 <Font name="Noto Serif Italic" size="16.0" />
                             </font>
                         </Label>
-                        <Label fx:id="btn_settings" onMouseClicked="#Settings_display" prefHeight="26.0" prefWidth="66.0" text="settings">
+                        <Label fx:id="btn_settings" onMouseClicked="#Settings_display" prefHeight="26.0" prefWidth="87.0" text="SETTINGS">
                             <font>
                                 <Font name="Noto Serif Italic" size="16.0" />
                             </font>
                         </Label>
-                        <Label text="lorem">
+                        <Label text="QUIZ">
                             <font>
                                 <Font name="Noto Serif Italic" size="16.0" />
                             </font>
                         </Label>
-                        <Label text="lorem">
+                        <Label prefHeight="26.0" prefWidth="62.0" text="COURS">
                             <font>
                                 <Font name="Noto Serif Italic" size="16.0" />
                             </font>
@@ -69,6 +69,7 @@
                                 <Font name="Sylfaen" size="50.0" />
                             </font>
                         </Label>
+                  <ImageView fitHeight="32.0" fitWidth="18.0" layoutX="-72.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true" />
                     </children>
                 </AnchorPane>
                 <AnchorPane fx:id="pnprofile" layoutX="30.0" layoutY="104.0" prefHeight="383.0" prefWidth="714.0" visible="false">

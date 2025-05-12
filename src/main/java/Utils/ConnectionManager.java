@@ -8,13 +8,13 @@ public class ConnectionManager {
     private static final String user="root";
     private static final String password ="";
     public static Connection getConnection(){
-        Connection connection =null;
+        Connection connection = null;
         try {
             connection=DriverManager.getConnection(url,user,password);
             System.out.println("connected to the database");
         }catch (SQLException e){
             System.err.println("error connecting to the database:"+e.getMessage());
-            e.printStackTrace();
+            throw new RuntimeException("failed to connect to the database",e);
 
         }catch (Exception e){
             System.err.println("error connecting to the database:"+e.getMessage());

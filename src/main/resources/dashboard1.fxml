@@ -18,7 +18,7 @@
                     <children>
                         <ImageView fitHeight="64.0" fitWidth="67.0" pickOnBounds="true" preserveRatio="true">
                             <image>
-                                <Image url="@imgs/ninja.png" />
+                                <Image url="@imgs/user.png" />
                             </image>
                         </ImageView>
                         <Label fx:id="lbUserNameGlobal" text="Label">
