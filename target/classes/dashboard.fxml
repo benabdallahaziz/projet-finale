@@ -12,7 +12,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="651.0" prefWidth="879.0" style="-fx-background-color: transparent;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.DashboardController">
     <children>
-        <AnchorPane fx:id="MainContainer" layoutX="31.0" layoutY="41.0" prefHeight="498.0" prefWidth="826.0" style="-fx-background-color: #D19D8D; -fx-background-radius: 25;">
+        <AnchorPane fx:id="MainContainer" layoutX="31.0" layoutY="41.0" prefHeight="498.0" prefWidth="826.0" style="-fx-background-color: #f4eab8; -fx-background-radius: 25;">
             <children>
                 <HBox alignment="CENTER" layoutX="588.0" layoutY="13.0" prefHeight="66.0" prefWidth="252.0" spacing="20.0">
                     <children>
@@ -35,17 +35,17 @@
                                 <Font name="Noto Serif Italic" size="16.0" />
                             </font>
                         </Label>
-                        <Label fx:id="btn_settings" onMouseClicked="#Settings_display" prefHeight="26.0" prefWidth="66.0" text="settings">
+                        <Label fx:id="btn_settings" onMouseClicked="#Settings_display" prefHeight="26.0" prefWidth="87.0" text="SETTINGS">
                             <font>
                                 <Font name="Noto Serif Italic" size="16.0" />
                             </font>
                         </Label>
-                        <Label text="affichage ">
+                        <Label text="QUIZ">
                             <font>
                                 <Font name="Noto Serif Italic" size="16.0" />
                             </font>
                         </Label>
-                        <Label prefHeight="26.0" prefWidth="62.0" text="activité">
+                        <Label prefHeight="26.0" prefWidth="62.0" text="COURS">
                             <font>
                                 <Font name="Noto Serif Italic" size="16.0" />
                             </font>
@@ -69,6 +69,7 @@
                                 <Font name="Sylfaen" size="50.0" />
                             </font>
                         </Label>
+                  <ImageView fitHeight="32.0" fitWidth="18.0" layoutX="-72.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true" />
                     </children>
                 </AnchorPane>
                 <AnchorPane fx:id="pnprofile" layoutX="30.0" layoutY="104.0" prefHeight="383.0" prefWidth="714.0" visible="false">
@@ -209,3 +210,4 @@
         </ImageView>
     </children>
 </AnchorPane>
+
